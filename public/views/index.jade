@@ -1,0 +1,25 @@
+extends layout
+
+block content
+	.row
+		.col-md-8
+			h1 Latest Blog Posts
+			article
+				h2
+					a(href='/article/15') How to use Routers
+				.row
+					.col-sm-12.col-md-12
+						span.glyphicon.glyphicon-pencil
+						a(href='/article/15#comments') 10 comments
+						span.glyphicon.glyphicon-time
+						| Jun 1, 2014 3:00 PM
+
+				hr
+
+				p.lead
+					| Lorem Ipsum is simply dummy text of the printing and typesetting 
+				p.text-right
+					a(href='/article/15')
+						| content reading...
+
+				hr

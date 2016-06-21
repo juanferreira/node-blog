@@ -1,0 +1,23 @@
+{
+	"author" : "Juan Ferreira <juan.ferreira@me.com>",
+	"name" : "simple-blog",
+	"version" : "0.0.1",
+	"private" : true,
+	"dependencies" : {
+		"express" : "4.x",
+		"morgan" : "~1.0.0",
+		"cookie-parser" : "~1.0.1",
+		"body-parser" : "~1.0.0",
+		"method-override" : "~1.0.0",
+		"jade" : "latest",
+		"mongoose" : "latest",
+		"config" : "latest",
+		"crypto" : "latest",
+		"passport" : "latest",
+		"passport-local" : "latest",
+		"express-session" : "latest",
+		"redis" : "latest",
+		"connect-redis" : "latest",
+		"connect-flash" : "latest"
+	}
+}
